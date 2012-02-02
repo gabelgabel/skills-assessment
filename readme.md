@@ -6,5 +6,5 @@ If you have questions - contact christian.harden@ff0000.com  by email or gchat
 
 ### Resources
 
-	* [Contact List JPEG](/contactListUpdated.jpg)
-	* [Contact List PSD](/contactListUpdated.psd)
+* [Contact List JPEG](/contactListUpdated.jpg)
+* [Contact List PSD](/contactListUpdated.psd)
