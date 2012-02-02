@@ -6,5 +6,5 @@ If you have questions - contact christian.harden@ff0000.com  by email or gchat
 
 ### Resources
 
-* [Contact List JPEG](blob/master/contactListUpdated.jpg)
-* [Contact List PSD](blob/master/contactListUpdated.psd)
+* [Contact List JPEG](https://github.com/ff0000/skills-assessment/blob/master/contactListUpdated.jpg)
+* [Contact List PSD](https://github.com/ff0000/skills-assessment/blob/master/contactListUpdated.psd) (right click and save)
