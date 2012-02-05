@@ -1,14 +1,16 @@
 ## Contacts widget
 
-Dependecies: ui.contacts.css
 Author: Jarret Gabel
+
+Dependecies:
+ui.contacts.js, 
+ui.contacts.css,
+jQuery, jQuery UI
 
 Usage:
 $(div).contacts({data : json});
 
 To resize, adjust element size.
-
-/************************************************/
 
 ## Skills Assessment
 
