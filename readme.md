@@ -1,19 +1,20 @@
-## Contacts widget
+# Contacts widget
 
-Author: Jarret Gabel
-Demo: http://jarretgabel.com/contacts-widget/
+#### Author: Jarret Gabel
 
-Dependecies:
+#### Demo: http://jarretgabel.com/contacts-widget/(http://jarretgabel.com/contacts-widget/ "http://jarretgabel.com/contacts-widget/")
+
+#### Dependecies:
 ui.contacts.js, 
 ui.contacts.css,
 jQuery, jQuery UI
 
-Usage:
+#### Usage:
 $(div).contacts({data : json});
 
 To resize, adjust element size.
 
-Accepts json with structure:
+> "Accepts json with structure:
  {
 		"0" : {
 			"name"  	: "Christian",
@@ -23,7 +24,7 @@ Accepts json with structure:
 			"email" 	: "christian@yahoo.com",
 			"color"		: "green"
 		}
-}
+}"
 
 ## Skills Assessment
 
