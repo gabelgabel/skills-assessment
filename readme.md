@@ -2,7 +2,7 @@
 
 #### Author: Jarret Gabel
 
-#### Demo: http://jarretgabel.com/contacts-widget/
+#### Demo: [contacts-widget](http://jarretgabel.com/contacts-widget/)
 
 #### Dependecies:
 * ui.contacts.js
@@ -16,9 +16,9 @@ $(div).contacts({data : json});
 To resize, adjust element size.
 
 Accepts json with structure:
-{
-		"0" : {
-			"name"  	: "Christian",
+    {
+		    "0" : {
+		    	"name"  	: "Christian",
 			"street"	: "123 Main Street",
 			"city"  	: "New York, NY",
 			"phone" 	: "555-555-5555",
