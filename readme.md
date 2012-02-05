@@ -2,7 +2,7 @@
 
 #### Author: Jarret Gabel
 
-#### Demo: http://jarretgabel.com/contacts-widget/(http://jarretgabel.com/contacts-widget/ "http://jarretgabel.com/contacts-widget/")
+#### Demo: http://jarretgabel.com/contacts-widget/
 
 #### Dependecies:
 ui.contacts.js, 
@@ -14,7 +14,7 @@ $(div).contacts({data : json});
 
 To resize, adjust element size.
 
-> "Accepts json with structure:
+Accepts json with structure:
  {
 		"0" : {
 			"name"  	: "Christian",
@@ -24,7 +24,7 @@ To resize, adjust element size.
 			"email" 	: "christian@yahoo.com",
 			"color"		: "green"
 		}
-}"
+}
 
 ## Skills Assessment
 
