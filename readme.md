@@ -1,3 +1,15 @@
+## Contacts widget
+
+Dependecies: ui.contacts.css
+Author: Jarret Gabel
+
+Usage:
+$(div).contacts({data : json});
+
+To resize, adjust element size.
+
+/************************************************/
+
 ## Skills Assessment
 
 This repository contains three states of a new contacts widget. This widget will be used across multiple sites. Designers will also use this in mocks for usability tests.
