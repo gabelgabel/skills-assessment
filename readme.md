@@ -17,14 +17,14 @@ To resize, adjust element size.
 
 Accepts json with structure:
 ```{
-		```"0" : {```
-			```"name"  	: "Christian",```
-			```"street"	: "123 Main Street",```
-			```"city"  	: "New York, NY",```
-			```"phone" 	: "555-555-5555",```
-			```"email" 	: "christian@yahoo.com",```
-			```"color"		: "green"```
-		```}```
+		"0" : {
+			"name"  	: "Christian",
+			"street"	: "123 Main Street",
+			"city"  	: "New York, NY",
+			"phone" 	: "555-555-5555",
+			"email" 	: "christian@yahoo.com",
+			"color"		: "green"
+		}
 }```
 
 ## Skills Assessment
