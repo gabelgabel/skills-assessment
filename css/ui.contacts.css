@@ -26,8 +26,8 @@
 	-moz-box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
 	-webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
 	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";*/
+	/*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');*/
 }
 
 /*
@@ -50,7 +50,7 @@
 	background: -o-linear-gradient(top,  #3e3e3e 0%,#252525 100%);
 	background: -ms-linear-gradient(top,  #3e3e3e 0%,#252525 100%); 
 	background: linear-gradient(top,  #3e3e3e 0%,#252525 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#252525',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#252525',GradientType=0);
 }
 
 .ui-title {
@@ -59,7 +59,9 @@
 	font-weight: bold;
 	box-shadow: none;
 }
-
+.ui-title h2 {
+	font-size: 14px;
+}
 
 /*
  *
@@ -205,9 +207,8 @@
 }
 
 .ui-footer select {
-	margin: 14px 16px 0 0;
+	margin: 12px 16px 0 0;
 	float: right;
-	height: 16px;
 	font-size: 11px;
 }
 .ui-shadow {

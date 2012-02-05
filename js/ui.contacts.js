@@ -12,6 +12,18 @@
  *
  * To resize, adjust element size.
  *
+ * Accepts json with structure:
+ * {
+ *		"0" : {
+ *			"name"  	: "Christian",
+ *			"street"	: "146H Union Ave.",
+ *			"city"  	: "Rutherford, NJ",
+ *			"phone" 	: "555-555-5555",
+ *			"email" 	: "christian@yahoo.com",
+ *			"color"		: "green"
+ *		}
+ * }
+ *
  */
 
 (function ($) {
@@ -118,7 +130,7 @@
 			var footer = '	';
 			footer += '		<div class="ui-footer">';
 			footer += '			<div class="ui-shadow"></div>';
-			footer += '			<select name="selection" size="">';
+			footer += '			<select name="selection" size="1">';
 			footer += '				<option selected value="email">Email address</option>';
 			footer += '				<option value="phone">Phone number</option>';
 			footer += '			</select>';
