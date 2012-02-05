@@ -16,8 +16,8 @@ Accepts json with structure:
  {
 		"0" : {
 			"name"  	: "Christian",
-			"street"	: "146H Union Ave.",
-			"city"  	: "Rutherford, NJ",
+			"street"	: "123 Main Street",
+			"city"  	: "New York, NY",
 			"phone" 	: "555-555-5555",
 			"email" 	: "christian@yahoo.com",
 			"color"		: "green"
