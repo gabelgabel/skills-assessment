@@ -111,7 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', end
 	margin: 11px 5px 0 0;
 }
 .ui-contact:hover .ui-contact-header {
-	border-right: 0px solid #1e1e1e;
+	border-right: 0 solid #1e1e1e;
 }
 .ui-circle {
 	display: block;
