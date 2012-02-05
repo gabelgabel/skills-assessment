@@ -1,7 +1,10 @@
 /*
  * Contacts widget
  *
- * Dependecies: ui.contacts.css
+ * Dependecies: 
+ * ui.contacts.css, 
+ * jQuery, jQuery UI
+ *
  * Author: Jarret Gabel
  *
  * Usage:
