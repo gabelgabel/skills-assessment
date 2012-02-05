@@ -1,0 +1,222 @@
+/*
+ * Contacts widget
+ *
+ * Dependecies: ui.contacts.js
+ * Author: Jarret Gabel
+ *
+ */
+ 
+.ui-container {
+
+	height: 100%;
+	background: #202020;
+	overflow: hidden;
+
+	box-sizing: border-box;
+	border: 2px solid #4b4b4b;
+
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-khtml-border-radius: 12px;
+	border-radius: 12px;
+
+	-moz-box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3),3px 3px 10px 3px rgba(0,0,0,0.3) inset;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+/*
+ *
+ * Header
+ *
+ */ 
+
+ .ui-header {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	background: #3e3e3e;
+	background: -moz-linear-gradient(top,  #3e3e3e 0%, #252525 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e3e3e), color-stop(100%,#252525));
+	background: -webkit-linear-gradient(top,  #3e3e3e 0%,#252525 100%);
+	background: -o-linear-gradient(top,  #3e3e3e 0%,#252525 100%);
+	background: -ms-linear-gradient(top,  #3e3e3e 0%,#252525 100%); 
+	background: linear-gradient(top,  #3e3e3e 0%,#252525 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#252525',GradientType=0 );
+}
+
+.ui-title {
+	padding: 18px 0 0 17px;
+	font-size: 14px;
+	font-weight: bold;
+	box-shadow: none;
+}
+
+
+/*
+ *
+ * Inner content
+ *
+ */ 
+
+.ui-inner {
+	background: black;
+	top: 50px;
+	bottom: 44px;
+	overflow: hidden;
+	/*overflow-y: auto;*/
+	overflow-x: hidden;
+	width: 100%;
+	height: 300px;
+}
+
+.ui-contact {
+	border-style:solid;
+	border: 1px double #131313;
+	color: #fff;
+	font-size: 12px;
+	height: 35px;
+	position: relative;
+	overflow: visible;
+	/*opacity: .25;
+	-webkit-transition: opacity 1s ease-in-out;*/
+}
+
+.ui-contact a {
+	color: #565656;
+	text-decoration: none;
+}
+.ui-contact:hover a {
+	color: #00f6ff;
+	text-decoration: underline;
+}
+
+.ui-contact-header {
+	float: left;
+	width: 105px;
+	height: 26px;
+	border-right: 1px solid #1e1e1e;
+}
+.ui-contact-header h3 {
+	float: left;
+	font-size: 12px;
+	margin: 11px 5px 0 0;
+}
+.ui-contact:hover .ui-contact-header {
+	border-right: 0px solid #1e1e1e;
+}
+.ui-circle {
+	display: block;
+	width: 8px;
+	height: 8px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	float: left;
+	margin: 14px 0 0 12px;
+}
+.green { background: #00ff1e; }
+.yellow { background: #fffc00; }
+.red { background: #ff0000; }
+
+.ui-name {
+	font-size: 12px;
+	padding-left: 12px;
+	float:left;
+}
+
+.ui-contact:nth-child(even) {
+	background: #212121;
+}
+
+.ui-contact:nth-child(odd) {
+	background: #1a1a1a;
+}
+
+.ui-contact li:nth-child(2),
+.ui-contact li:nth-child(1) {
+	margin-bottom: 15px;
+}
+
+.ui-contact:nth-child(even):hover .ui-title,
+.ui-contact:nth-child(odd):hover .ui-title {
+	border-right: 0;
+}
+.ui-contact:hover {
+	overflow: visible;
+}
+.ui-contact ul {
+	border-left: 1px solid #1c1c1c;
+	float: left;
+	color: #565656;
+	padding: 11px 0 15px 17px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 106px;
+
+	max-height: 9px;
+	-webkit-transition: max-height .3s ease-in-out .2s;
+	-moz-transition: max-height .3s ease-in-out .2s;
+	-o-transition: max-height .3s ease-in-out .2s;
+	-ms-transition: max-height .3s ease-in-out .2s;	
+	transition: max-height .3s ease-in-out .2s;
+}
+
+.ui-contact:nth-child(even):hover ul,
+.ui-contact:nth-child(odd):hover ul {
+	border-left: 0;
+	padding-left: 23px;
+	padding-right: 10px;
+	margin-left: 106px;
+	position: absolute;
+	background: #484848;
+	z-index: 100;
+	width: 100%;
+	max-height: 100px;
+}
+
+.ui-contact:hover li,
+.ui-contact:hover {
+	color: #fff;
+	background: #484848;
+}
+
+/*
+ *
+ * Footer
+ *
+ */  
+
+.ui-footer {
+	background: #202020;
+	height: 33px;
+	bottom: 0;
+	position: relative;
+	width: 100%;
+	z-index: 100;
+}
+
+.ui-footer select {
+	margin: 14px 16px 0 0;
+	float: right;
+	height: 16px;
+	font-size: 11px;
+}
+.ui-shadow {
+	height: 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 33px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.5)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 );
+}

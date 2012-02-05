@@ -1,0 +1,66 @@
+{
+	"0" : {
+		"name"  	: "Christian",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "christian@yahoo.com",
+		"color"		: "green"
+	},
+	"1" : {
+		"name"  	: "Rich",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "rich@yahoo.com",
+		"color"		: "green"
+	},
+	"2" : {
+		"name"  	: "Scott",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "scott@yahoo.com",
+		"color"		: "green"
+	},
+	"3" : {
+		"name"  	: "Christine",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "christine@yahoo.com",
+		"color"		: "green"
+	},
+	"4" : {
+		"name"  	: "Taka",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "taka@yahoo.com",
+		"color"		: "red"
+	},
+	"5" : {
+		"name"  	: "Jaques",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "jaques@yahoo.com",
+		"color"		: "yellow"
+	},
+	"6" : {
+		"name"  	: "Jenny",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "jenny@yahoo.com",
+		"color"		: "green"
+	},
+	"7" : {
+		"name"  	: "John",
+		"street"	: "146H Union Ave.",
+		"city"  	: "Rutherford, NJ",
+		"phone" 	: "555-555-5555",
+		"email" 	: "john@yahoo.com",
+		"color"		: "yellow"
+	}
+}

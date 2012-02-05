@@ -1,0 +1,34 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	display: block;
+
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+ul, li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+}
+#contactList {
+	width: 275px;
+	height: 390px;
+	overflow: hidden;
+	position: absolute;
+	font-size: 12px;
+	margin: 10px;
+	padding: 20px;
+}
+
+a, a:hover, a:visited {
+	text-decoration:none;
+}
+
