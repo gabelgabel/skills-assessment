@@ -5,9 +5,10 @@
 #### Demo: http://jarretgabel.com/contacts-widget/
 
 #### Dependecies:
-ui.contacts.js, 
-ui.contacts.css,
-jQuery, jQuery UI
+* ui.contacts.js
+* ui.contacts.css
+* jQuery
+* jQuery UI
 
 #### Usage:
 $(div).contacts({data : json});
@@ -15,7 +16,7 @@ $(div).contacts({data : json});
 To resize, adjust element size.
 
 Accepts json with structure:
- {
+> "{
 		"0" : {
 			"name"  	: "Christian",
 			"street"	: "123 Main Street",
@@ -24,7 +25,7 @@ Accepts json with structure:
 			"email" 	: "christian@yahoo.com",
 			"color"		: "green"
 		}
-}
+}"
 
 ## Skills Assessment
 
