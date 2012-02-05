@@ -12,6 +12,18 @@ $(div).contacts({data : json});
 
 To resize, adjust element size.
 
+Accepts json with structure:
+ {
+		"0" : {
+			"name"  	: "Christian",
+			"street"	: "146H Union Ave.",
+			"city"  	: "Rutherford, NJ",
+			"phone" 	: "555-555-5555",
+			"email" 	: "christian@yahoo.com",
+			"color"		: "green"
+		}
+}
+
 ## Skills Assessment
 
 This repository contains three states of a new contacts widget. This widget will be used across multiple sites. Designers will also use this in mocks for usability tests.
