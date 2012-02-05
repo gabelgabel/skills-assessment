@@ -169,7 +169,8 @@
 		 */
 		destroy: function () {
 			this._removeListeners();
-			this._super('_destroy');
+
+			$.Widget.prototype.destroy.call(this);
 		}
 	});
 }(jQuery));

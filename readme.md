@@ -1,6 +1,7 @@
 ## Contacts widget
 
 Author: Jarret Gabel
+Demo: http://jarretgabel.com/contacts-widget/
 
 Dependecies:
 ui.contacts.js, 
