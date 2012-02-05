@@ -16,7 +16,7 @@ $(div).contacts({data : json});
 To resize, adjust element size.
 
 Accepts json with structure:
-<tt>{
+  <nowiki>{
 		"0" : {
 			"name"  	: "Christian",
 			"street"	: "123 Main Street",
@@ -25,7 +25,7 @@ Accepts json with structure:
 			"email" 	: "christian@yahoo.com",
 			"color"		: "green"
 		}
-}</tt>
+}</nowiki>
 
 ## Skills Assessment
 
