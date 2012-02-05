@@ -11,7 +11,7 @@
 * jQuery UI
 
 #### Usage:
-$(div).contacts({data : json});
+<pre>$(div).contacts({data : json});</pre>
 
 To resize, adjust element size.
 
